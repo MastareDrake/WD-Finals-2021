@@ -184,6 +184,8 @@ body{
 #bestsellertext{
     display: flex;
     justify-content: center;
+    padding: auto;
+    padding-top: 1.5em;
 }
 
 .bscontent{
