@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS Files/Orders_CSS.css">
+    <Title>Bite & Bean - About Us</Title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type=text/javascript>
+        function HomeButton() {
+          window.location="HomePage.html";
+        }
+
+        function AboutButton() {
+          window.location="AboutPage.html";
+        }
+
+        function MenuButton() {
+          window.location="MenuPage.html";
+        }
+
+        function LocationsButton() {
+          window.location="LocationsPage.html";
+        }
+
+        function ContactsButton() {
+          window.location="ContactsPage.html";
+        }
+
+        function OrderButton() {
+          window.location="OrdersPage.html";
+        }
+      </script>
+
+
+</head>
+
+<body>
+<div class="navbar-container">
+    <div class="header">
+        <div class="navbar">  
+            <div class="navbar-home">
+                <button class="button bhome" onclick="HomeButton();"><p>Home</p></button>
+            </div>
+            <div class="navbar-menu">
+                <button class="button bmenu" onclick="MenuButton();"><p>Menu</p></button>
+            </div>
+            <div class="navbar-about">
+                <button class="button babout" onclick="AboutButton();" ><p>About</p></button>
+            </div>
+
+            <div class="logo">
+                <div id="pic">
+                    <!-- add logo here-->
+                    <!--<p>Placeholder logo</p>-->
+                    <img src="https://media.discordapp.net/attachments/913379502405595162/914366239558742036/Bite-and-Beans-2.png?width=144&height=144" onclick="HomeButton();">
+                </div>
+            </div>
+
+            <div class="navbar-order">
+                <button class="button bOrder" onclick="OrderButton();"><p>Order</p></button>
+            </div>
+            <div class="navbar-locations">
+                <button class="button bloc" onclick="LocationsButton();"><p>Locations</p></button>
+            </div>
+            <div class="navbar-contacts">
+                <button class="button bcontacts" onclick="ContactsButton();"><p>Social Media</p></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--BestSellers-->
+    <div class="bestsellers">
+        <br>
+        <div class="aboutcontent">
+            <img src="./Images/Bite_and_Beans_Logo.png" style="max-height: 200px;"><br>
+        </div>
+        <div class="aboutinfo">
+            <p>
+                Coming Soon ;)
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footercontent"> 
+            <div class="logofooter"> <img src="https://media.discordapp.net/attachments/913379502405595162/914366239558742036/Bite-and-Beans-2.png?width=144&height=144"></div>
+            <div class="flinks"><!--Change Links to other pages-->
+                <a href="AboutPage.html">About</a><br>
+                <a href="OrdersPage.html">Delivery</a><br>
+                <a href="ContactsPage.html">Social Media</a><br>
+            </div>
+            
+            <div class="contactinfo">
+                <p>Main Office: <br> 344 C Planca Sr Street <br> Manila <br> Phone Number: 7349982 <br> Email: bitenbeanoffice@gmail.com</p>
+            </div>
+    
+            <div class="language">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/2560px-Flag_of_the_Philippines.svg.png" style="max-height: 20px;">
+            </div>
+        </div>   
+    </div>
+
+</body>
+</html>
+

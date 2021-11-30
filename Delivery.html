@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS Files/Delivery.css">
+    <Title>Bite & Bean - Menu</Title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type=text/javascript>
+        function HomeButton() {
+          window.location="HomePage.html";
+        }
+
+        function MenuButton() {
+          window.location="MenuPage.html";
+        }
+
+        function AboutButton() {
+          window.location="AboutPage.html";
+        }
+
+        function LocationsButton() {
+          window.location="LocationsPage.html";
+        }
+
+        function ContactsButton() {
+          window.location="ContactsPage.html";
+        }
+
+        function OrderButton() {
+          window.location="Delivery.html";
+        }
+      </script>
+
+
+</head>
+
+<body>
+<div class="navbar-container">
+    <div class="header">
+        <div class="navbar">  
+            <div class="navbar-home">
+                <button class="button bhome" onclick="HomeButton();"><p>Home</p></button>
+            </div>
+            <div class="navbar-menu">
+                <button class="button bmenu" onclick="MenuButton();"><p>Menu</p></button>
+            </div>
+            <div class="navbar-about">
+                <button class="button babout" onclick="AboutButton();" ><p>About</p></button>
+            </div>
+
+            <div class="logo">
+                <div id="pic">
+                    <!-- add logo here-->
+                    <!--<p>Placeholder logo</p>-->
+                    <img src="https://media.discordapp.net/attachments/913379502405595162/914366239558742036/Bite-and-Beans-2.png?width=144&height=144" onclick="HomeButton();">
+                </div>
+            </div>
+
+            <div class="navbar-order">
+                <button class="button bOrder" onclick="OrderButton();"><p>Order</p></button>
+            </div>
+            <div class="navbar-locations">
+                <button class="button bloc" onclick="LocationsButton();"><p>Locations</p></button>
+            </div>
+            <div class="navbar-contacts">
+                <button class="button bcontacts" onclick="ContactsButton();"><p>Social Media</p></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--BestSellers-->
+    <div class="bestsellers">
+                <!--Drinks-->
+                <div id="bestsellertext">
+                    <p style="text-align: center; text-decoration: underline; font-size: 3em; margin: auto; margin-top:1em; padding:0;">Coffee</p>
+                </div>
+                <!--Row 1-->
+                <div style="display: inline;">
+                    <div style="display: inline-block;">
+                        <div id="pic1" class="bscontent">
+                            <img class="bspic" src="https://www.ucsf.edu/sites/default/files/styles/news_card__image/public/fields/field_insert_file/news/coffee.jpg"> 
+                            <p>Cafe Americano - Php 75</p>
+                            <p>Quantity: </p>
+                           
+                            <input type="number" min="0" max="500">
+                            
+                        </div>
+                    </div>
+                    <div style="display: inline-block;">
+                        <div id="pic2" class="bscontent">
+                            <img class="bspic" src="https://lh5.googleusercontent.com/KVYrO8WzS8yc9FEssCA4qG-J3KwmTr4znAjtX6DV-Q_ua3b3PnvIVhcf_PJ28kFTokMk3q6ibE389ozmoBOHCzQVYwjJEHkB4J4By9Xooe67sGT3j_JwCKF6Z-6-5ZFRitK2LVzN"> 
+                            <p>Cafe Espresso - Php 75</p>
+                            <p>Quantity: </p>
+                            <input type="number" min="0" max="100">
+                        </div>
+                    </div>
+                </div>
+                <!--Row 2-->
+                <div style="display: inline;">
+                    <div style="display: inline-block;">
+                        <div id="pic3" class="bscontent">
+                            <img class="bspic" src="https://cooktoria.com/wp-content/uploads/2016/07/copycat-starbucks-iced-caramel-macchiato-5.jpg"> 
+                            <p>Caramel Macchiato - Php 120</p>
+                            <p>Quantity: </p>
+                            <input type="number" min="0" max="100">
+                        </div>
+                    </div>
+                    <div style="display: inline-block;">
+                        <div id="pic4" class="bscontent">
+                            <img class="bspic" src="https://www.pjscoffee.com/uploads/hot-mocha.jpg"> 
+                            <p>Iced Mocha - Php 85</p>
+                            <p>Quantity: </p>
+                            <input type="number" min="0" max="100">
+                        </div>
+                    </div>
+                </div>
+                <!--Row 3-->
+                <div style="display: inline;">
+                    <div style="display: inline-block;">
+                        <div id="pic5" class="bscontent">
+                            <img class="bspic" src="https://honestlyyum.com/wp-content/uploads/2018/08/Coffee-jelly-3.jpg"> 
+                            <p>Coffee Jelly - Php 85</p>
+                            <p>Quantity: </p>
+                            <input type="number" min="0" max="100">
+                    </div>
+                    <div style="display: inline-block;">
+                        <div id="pic5" class="bscontent">
+                            <img class="bspic" src="https://www.thedinnerbite.com/wp-content/uploads/2021/09/boba-coffee-bubble-coffee-img-24.jpg"> 
+                            <p>Bobba Coffee - Php 100</p>
+                            <p>Quantity: </p>
+                            <input type="number" min="0" max="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Food-->
+        <div id="bestsellertext">
+            <p style="text-align: center; text-decoration: underline; font-size: 3em; margin: 0; padding:0;">Food</p>
+        </div>
+        <!--Row 1-->
+        <div style="display: inline;">
+            <div style="display: inline-block;">
+                <div id="pic1" class="bscontent">
+                    <img class="bspic" src="https://www.kyleecooks.com/wp-content/uploads/2019/04/No-Bake-Blueberry-Cheesecake-14-500x375.jpg"> 
+                    <p>No Bake Blueberry Cheesecake - Php 120</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                    
+                </div>
+            </div>
+            <div style="display: inline-block;">
+                <div id="pic2" class="bscontent">
+                    <img class="bspic" src="https://www.rockrecipes.com/wp-content/uploads/2012/10/DSC0371-1-480x360.jpg"> 
+                    <p>Homemade Apple Pie - Php 110</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+        </div>
+        <!--Row 2-->
+        <div style="display: inline;">
+            <div style="display: inline-block;">
+                <div id="pic3" class="bscontent">
+                    <img class="bspic" src="https://eat-drink-love.com/wp-content/uploads/2013/04/Cookie-Dough-Cake-2-mark.jpg"> 
+                    <p>Cookiedough Cake - Php 120</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+            <div style="display: inline-block;">
+                <div id="pic4" class="bscontent">
+                    <img class="bspic" src="https://www.simplyrecipes.com/thmb/C7Etb8jckjadvA2euBiCQhItA94=/1600x1200/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2009__09__caesar-salad-horiz-a-1800-4a465eb53456465091e34138675259c2.jpg"> 
+                    <p>Caesar Salad - Php 140</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+        </div>
+        <!--Row 3-->
+        <div style="display: inline;">
+            <div style="display: inline-block;">
+                <div id="pic5" class="bscontent">
+                    <img class="bspic" src="https://preppykitchen.com/wp-content/uploads/2020/04/Cinnamon-rolls-Recipe-new.jpg"> 
+                    <p>Cinammon Roll Donut - Php 90</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+            </div>
+            <div style="display: inline-block;">
+                <div id="pic5" class="bscontent">
+                    <img class="bspic" src="https://itsybitsykitchen.com/wp-content/uploads/2020/02/chocolate-mocha-cake-2.jpg"> 
+                    <p>Mocha Cake - Php 110</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--Beans-->
+        <div id="bestsellertext">
+            <p style="margin:0;">New Arrivals!</p>
+            <p style="text-decoration: underline; font-size: 3em; margin: 0; padding:0;">Beans</p>
+        </div>
+        <!--Row 1-->
+        <div style="display: inline;">
+            <div style="display: inline-block;">
+                <div id="pic1" class="bscontent">
+                    <img class="bspic" src="https://img1.exportersindia.com/product_images/bc-small/2021/10/9305153/liberica-coffee-beans-1634103541-6023825.jpeg"> 
+                    <p>Liberica Beans - Php 350 per 500g</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+            <div style="display: inline-block;">
+                <div id="pic2" class="bscontent">
+                    <img class="bspic" src="https://www.shopcoffee.co.uk/wp-content/uploads/2018/05/Coffee-Beans-in-Cup.jpg"> 
+                    <p>Robusta Beans - Php 350 per 500g</p>
+                    <p>Quantity: </p>
+                    <input type="number" min="0" max="100">
+                </div>
+            </div>
+        </div> 
+        <button class="placeorderbutton"><p>Place Order</p></button>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footercontent"> 
+        <div class="logofooter"> <img src="https://media.discordapp.net/attachments/913379502405595162/914366239558742036/Bite-and-Beans-2.png?width=144&height=144"></div>
+        <div class="flinks"><!--Change Links to other pages-->
+            <a href="AboutPage.html">About</a><br>
+            <a href="Delivery.html">Delivery</a><br>
+            <a href="ContactsPage.html">Social Media</a><br>
+        </div>
+        
+        <div class="contactinfo">
+            <p>Main Office: <br> 344 C Planca Sr Street <br> Manila <br> Phone Number: 7349982 <br> Email: bitenbeanoffice@gmail.com</p>
+        </div>
+
+        <div class="language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/2560px-Flag_of_the_Philippines.svg.png" style="max-height: 20px;">
+        </div>
+    </div>   
+</div>
+
+</body>
+</html>
+
